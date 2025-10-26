@@ -1,29 +1,3 @@
-# This is a MARKETING-ONLY repository
-# NO SOURCE CODE should ever be committed here
-
-# Source code (NEVER commit)
-src/
-dist/
-packages/
-node_modules/
-
-# Build artifacts (NEVER commit)
-*.vsix
-out/
-build/
-
-# Environment files (NEVER commit)
-.env
-.env.*
-*.log
-
-# Development files (NEVER commit)
-webpack.config.js
-tsconfig.json
-jest.config.js
-package.json
-package-lock.json
-
 # OS files
 .DS_Store
 Thumbs.db
@@ -36,9 +10,5 @@ Thumbs.db
 .idea/
 .claude/
 
-# Only allow marketing materials:
-# - README.md
-# - LICENSE
-# - assets/ (images, screenshots)
-# - docs/ (documentation)
-# - .github/ (issue templates)
+# Logs
+*.log
